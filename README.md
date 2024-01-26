@@ -10,3 +10,4 @@ Run the file while making sure to modify the variables : ```budget_multiplier```
 ```python
 fmin.solve(objfun=problem, x0=propose_x0(), lower=problem.lower_bounds, upper=problem.upper_bounds, maxfun=evalsleft(), rhobeg=itrr)
 ```  
+The folders ```exdata``` and ```ppdata``` contain the data from the executed experiments.  
